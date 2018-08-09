@@ -15,17 +15,10 @@
 		B35ACF98211B0E5100C970EA /* GithubHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACF97211B0E5100C970EA /* GithubHelperTests.swift */; };
 		B35ACFA3211B0E5100C970EA /* GithubHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFA2211B0E5100C970EA /* GithubHelperUITests.swift */; };
 		B35ACFBD211B0E9700C970EA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFB1211B0E9600C970EA /* Constants.swift */; };
-		B35ACFBE211B0E9700C970EA /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFB2211B0E9600C970EA /* Downloader.swift */; };
-		B35ACFC0211B0E9700C970EA /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFB4211B0E9600C970EA /* Keys.swift */; };
-		B35ACFC2211B0E9700C970EA /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFB6211B0E9600C970EA /* Console.swift */; };
-		B35ACFC5211B0E9700C970EA /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFB9211B0E9600C970EA /* CustomPageControl.swift */; };
-		B35ACFC8211B0E9700C970EA /* MediaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFBC211B0E9600C970EA /* MediaHelper.swift */; };
 		B35ACFCD211B12CB00C970EA /* UsersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFCC211B12CB00C970EA /* UsersTableView.swift */; };
 		B35ACFCF211B13DB00C970EA /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFCE211B13DB00C970EA /* UsersTableViewCell.swift */; };
-		B35ACFD2211B15A900C970EA /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFD1211B15A900C970EA /* ServiceManager.swift */; };
-		B35ACFD4211B163E00C970EA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFD3211B163E00C970EA /* Reachability.swift */; };
-		B35ACFD6211B166100C970EA /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFD5211B166100C970EA /* ReachabilityManager.swift */; };
-		B35ACFDD211B227900C970EA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACFDC211B227900C970EA /* Model.swift */; };
+		B3BCE755211C1F6F0044B2E7 /* UserDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BCE754211C1F6F0044B2E7 /* UserDetailScreen.swift */; };
+		B3BCE757211C21020044B2E7 /* UsersDetailTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BCE756211C21020044B2E7 /* UsersDetailTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,17 +53,10 @@
 		B35ACFA2211B0E5100C970EA /* GithubHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubHelperUITests.swift; sourceTree = "<group>"; };
 		B35ACFA4211B0E5100C970EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B35ACFB1211B0E9600C970EA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B35ACFB2211B0E9600C970EA /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
-		B35ACFB4211B0E9600C970EA /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
-		B35ACFB6211B0E9600C970EA /* Console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
-		B35ACFB9211B0E9600C970EA /* CustomPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
-		B35ACFBC211B0E9600C970EA /* MediaHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaHelper.swift; sourceTree = "<group>"; };
 		B35ACFCC211B12CB00C970EA /* UsersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableView.swift; sourceTree = "<group>"; };
 		B35ACFCE211B13DB00C970EA /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
-		B35ACFD1211B15A900C970EA /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
-		B35ACFD3211B163E00C970EA /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		B35ACFD5211B166100C970EA /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
-		B35ACFDC211B227900C970EA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B3BCE754211C1F6F0044B2E7 /* UserDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailScreen.swift; sourceTree = "<group>"; };
+		B3BCE756211C21020044B2E7 /* UsersDetailTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDetailTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +107,6 @@
 		B35ACF81211B0E4F00C970EA /* GithubHelper */ = {
 			isa = PBXGroup;
 			children = (
-				B35ACFDB211B226200C970EA /* Models */,
-				B35ACFD0211B155700C970EA /* Request */,
 				B35ACFCB211B127700C970EA /* Classes */,
 				B35ACFCA211B126400C970EA /* Views */,
 				B35ACFC9211B125300C970EA /* Controllers */,
@@ -156,14 +140,7 @@
 		B35ACFB0211B0E9600C970EA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				B35ACFD5211B166100C970EA /* ReachabilityManager.swift */,
-				B35ACFD3211B163E00C970EA /* Reachability.swift */,
 				B35ACFB1211B0E9600C970EA /* Constants.swift */,
-				B35ACFB2211B0E9600C970EA /* Downloader.swift */,
-				B35ACFB4211B0E9600C970EA /* Keys.swift */,
-				B35ACFB6211B0E9600C970EA /* Console.swift */,
-				B35ACFB9211B0E9600C970EA /* CustomPageControl.swift */,
-				B35ACFBC211B0E9600C970EA /* MediaHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -172,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				B35ACF84211B0E5000C970EA /* ViewController.swift */,
+				B3BCE754211C1F6F0044B2E7 /* UserDetailScreen.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -189,24 +167,9 @@
 			children = (
 				B35ACFCC211B12CB00C970EA /* UsersTableView.swift */,
 				B35ACFCE211B13DB00C970EA /* UsersTableViewCell.swift */,
+				B3BCE756211C21020044B2E7 /* UsersDetailTableView.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		B35ACFD0211B155700C970EA /* Request */ = {
-			isa = PBXGroup;
-			children = (
-				B35ACFD1211B15A900C970EA /* ServiceManager.swift */,
-			);
-			path = Request;
-			sourceTree = "<group>";
-		};
-		B35ACFDB211B226200C970EA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				B35ACFDC211B227900C970EA /* Model.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,19 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B35ACFD6211B166100C970EA /* ReachabilityManager.swift in Sources */,
-				B35ACFD2211B15A900C970EA /* ServiceManager.swift in Sources */,
 				B35ACF85211B0E5000C970EA /* ViewController.swift in Sources */,
-				B35ACFD4211B163E00C970EA /* Reachability.swift in Sources */,
-				B35ACFC5211B0E9700C970EA /* CustomPageControl.swift in Sources */,
-				B35ACFC0211B0E9700C970EA /* Keys.swift in Sources */,
-				B35ACFC2211B0E9700C970EA /* Console.swift in Sources */,
-				B35ACFDD211B227900C970EA /* Model.swift in Sources */,
+				B3BCE755211C1F6F0044B2E7 /* UserDetailScreen.swift in Sources */,
 				B35ACFCF211B13DB00C970EA /* UsersTableViewCell.swift in Sources */,
 				B35ACF83211B0E5000C970EA /* AppDelegate.swift in Sources */,
 				B35ACFCD211B12CB00C970EA /* UsersTableView.swift in Sources */,
-				B35ACFC8211B0E9700C970EA /* MediaHelper.swift in Sources */,
-				B35ACFBE211B0E9700C970EA /* Downloader.swift in Sources */,
+				B3BCE757211C21020044B2E7 /* UsersDetailTableView.swift in Sources */,
 				B35ACFBD211B0E9700C970EA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
